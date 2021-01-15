@@ -6,7 +6,7 @@ $db_config = get_db_config();
 
 return [
 
-    'default' => env('DB_CONNECTION', 'mysql'),
+    'default' => env( 'pgsql'),
 
     'connections' => [
 
